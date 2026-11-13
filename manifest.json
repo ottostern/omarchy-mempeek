@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ottostern.ram",
+  "name": "RAM-Anzeige",
+  "version": "1.0.0",
+  "author": "ottostern",
+  "description": "Shows the current RAM usage in the Omarchy bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "RAM Usage",
+    "description": "Shows the current RAM usage in percent",
+    "category": "System",
+    "allowMultiple": false
+  },
+  "license": "MIT"
+}
