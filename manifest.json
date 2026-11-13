@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "ottostern.ram",
-  "name": "RAM-Anzeige",
+  "id": "ottostern.mempeek",
+  "name": "MemPeek",
   "version": "1.0.0",
   "author": "ottostern",
-  "description": "Shows the current RAM usage in the Omarchy bar",
+  "description": "A quick peek at your memory: shows the current RAM usage in the Omarchy bar",
   "kinds": [
     "bar-widget"
   ],
@@ -12,7 +12,7 @@
     "barWidget": "Widget.qml"
   },
   "barWidget": {
-    "displayName": "RAM Usage",
+    "displayName": "MemPeek",
     "description": "Shows the current RAM usage in percent",
     "category": "System",
     "allowMultiple": false

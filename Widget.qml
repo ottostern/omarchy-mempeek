@@ -5,7 +5,7 @@ import qs.Ui
 
 BarWidget {
   id: root
-  moduleName: "ottostern.ram"
+  moduleName: "ottostern.mempeek"
 
   // 1) Eine "Variable": hier merken wir uns den aktuellen Wert
   property string ram: "…"
